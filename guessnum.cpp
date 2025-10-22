@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int a=rand()%100;
+    int a=rand()%101;
     int b;
     int n=0;
     cout<<"Guess a number"<<endl;
@@ -29,7 +29,7 @@ int main()
             break;
         }
 
-    }   while (n<5);
+    }   while (n<8);
     cout<<"Better luck next time"<<endl;
     cout<<"The secret number was: "<<a<<endl;
     

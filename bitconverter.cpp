@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -6,6 +7,7 @@ int main()
     string bin = " ";
     int num;
     cout<<"Enter a number you want to convert to binary "<<endl;
+
     cin>>num;
     if(num==0)
     {
