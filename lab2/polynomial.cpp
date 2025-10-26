@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 class TQuadEq
@@ -52,7 +53,7 @@ class TQuadEq
             return 2;
         }
     }
-    double GetRoots(double& root1, double& root2) const
+    void GetRoots(double& root1, double& root2) const
     {
         double delta=ComputeDelta();
         if(delta<0)
