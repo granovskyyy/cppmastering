@@ -65,8 +65,4 @@ int main()
     cout<<"add 2 complex nums ="<<p3<<endl;
     p3++;
     cout<<"after increment ="<<p3<<endl;
-    
-    
-
-    
 }
